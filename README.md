@@ -137,11 +137,6 @@ The chatbot design includes:
 
 This architecture enables scalable, accurate, and context-aware conversational AI systems.
 
----
 
-## 🧠 Vector Database & Use Case
-
-### What is a Vector Database?
-A vector database stores high-dimensional embeddings and performs similarity-based search using metrics such as cosine similarity or Eucl
 
 
