@@ -69,3 +69,79 @@ python -m api.server
 ```bash
 python -c "from db.database import display_books, create_database; display_books(create_database())"
 ```
+
+
+# AI & Software Engineering Assignment
+
+This repository contains solutions to a multi-part assignment covering data engineering, visualization, large language model (LLM) architecture, vector databases, and robotics. The focus is on clean design, scalability, and real-world applicability rather than only code execution.
+
+---
+
+## 📌 Problem Statement 1: API Data Retrieval & Storage
+
+### Overview
+A high-level, research-oriented approach to fetching book data from a REST API, validating it, storing it in an SQLite database, and displaying the results.
+
+### Workflow
+1. Fetch JSON data from a REST API
+2. Validate required fields (title, author, year)
+3. Create an SQLite database and table
+4. Store validated records
+5. Retrieve and display stored data
+
+### Key Concepts
+- RESTful APIs
+- Data validation
+- SQLite database design
+- Modular Python architecture
+
+---
+
+## 📊 Data Processing & Visualization
+
+This module demonstrates:
+- Fetching data from an API using `requests`
+- Processing data using `pandas`
+- Computing averages
+- Visualizing results using `matplotlib`
+
+This showcases a complete data pipeline from ingestion to insight.
+
+---
+
+## 📁 CSV to SQLite Automation
+
+A Python script that:
+- Reads user data from a CSV file
+- Automatically creates an SQLite database
+- Inserts records into structured tables
+- Retrieves and prints data for verification
+
+Use case: lightweight data migration and local persistence.
+
+---
+
+## 🤖 LLM Chatbot Architecture (High-Level Design)
+
+The chatbot design includes:
+
+- **UI Layer** – User interaction (web/app)
+- **Orchestration Layer** – Controls flow and tool usage
+- **LLM** – Core reasoning and response generation
+- **RAG (Retrieval-Augmented Generation)**
+  - Embeddings
+  - Vector database
+- **Context & Memory Management**
+- **Tool & API Integration**
+- **Backend & Deployment** – FastAPI, Docker, cloud infrastructure
+
+This architecture enables scalable, accurate, and context-aware conversational AI systems.
+
+---
+
+## 🧠 Vector Database & Use Case
+
+### What is a Vector Database?
+A vector database stores high-dimensional embeddings and performs similarity-based search using metrics such as cosine similarity or Eucl
+
+
